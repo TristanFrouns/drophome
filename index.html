@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Modèle</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="banniere-titre">
+            <h1>
+                 Votre nouvelle Destination !        
+            </h1>
+        </div>
+     
+        <form id="form">
+            <div class="field">
+                <select id="pays">
+                    <option value="hawai">Hawaiii</option>
+                    <option value="maldives">Les maldives</option>
+                    <option value="bahamas">Bahamas</option>
+                    <option value="tahiti">Tahiti</option>
+                    <option value="borabora">borabora</option>
+                </select>
+            </div>
+            
+            <div class="field">
+                <input type="date" id="start" 
+                value="2021-06-02"
+                min="2021-06-01">
+            </div>
+            <!-- Date de retour -->
+            <div class="field">
+                <input type="date" id="end" 
+                value="2021-06-02"
+                min="2021-06-01">
+            </div>
+            <button type="submit"><i class="fas fa-plane"></i></button>
+        </form>
+
+        <div class="liste-resultats">Voici la liste des resultats</div>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
+
