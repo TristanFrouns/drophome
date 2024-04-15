@@ -10,7 +10,7 @@ html{
 body{
     font-size: 1.4rem;/* soit 14px*/
     font-family: arial;
-    color: white;
+    color: black;
 }
 .container{
     height: 100vh;
@@ -47,21 +47,3 @@ button{
     border-radius: 50%;
     background-color: #e1a026;
     color: white;
-}
-
-.liste-resultats{
-    display: flex;
-}
-
-.item{
-    flex: 1;
-    background-color: rgba(255, 255, 255, 0.724);
-    color: black;
-    margin: 2rem;
-    padding: 2rem;
-    border-radius: 5px;
-}
-.item-pays{
-    font-weight: bold;
-    text-transform: uppercase;
-}
