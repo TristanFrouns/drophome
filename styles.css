@@ -41,10 +41,3 @@ body{
     width: 20rem;
     font-family: arial;
 }
-button{
-    width: 4rem;
-    height: 4rem;
-    border: 1px solid white;
-    border-radius: 50%;
-    background-color: #e1a026;
-    color: white;
